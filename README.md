@@ -18,7 +18,7 @@ I am currently working on a deep reinforcement learning assignment related to Mu
 2. Code and charts: Provide Python code for the algorithm and use charts to illustrate the results (e.g., cumulative rewards, convergence speed, etc.).
 
 3. Result interpretation: Analyze the results in terms of space and time complexity.
-(br)
+<br>
 After code for each method generated, I am going to do comparison. The goal was to compare these strategies based on their performance, especially in terms of **average reward**, **best arm selection count**, and **convergence speed**. I implemented the algorithms in Python and ran simulations to evaluate how each algorithm performs under the same conditions.
 
 ---
@@ -142,9 +142,9 @@ The comparison plot shows the **performance over time** of each algorithm. Here'
 
 ## 💻 How to Run
 
-pip install matplotlib numpy(br)
-python MAB-Thompson Sampling.py(br)
-python MAB-UCB.py(br)
-python MAB-Epsilon-Greedy.py(br)
-python MAB-Thompson Sampling.py(br)
+pip install matplotlib numpy<br>
+python MAB-Thompson Sampling.py<br>
+python MAB-UCB.py<br>
+python MAB-Epsilon-Greedy.py<br>
+python MAB-Thompson Sampling.py<br>
 python MAB-Comparison.py
