@@ -115,8 +115,8 @@ Softmax
 UCB
 
 ![image](https://github.com/yao790609/RL_HW3/blob/main/MAB-Thompson%20Sampling.png)
-
 Thompson Sampling
+
 ---
 
 ## 📊 Significance of Comparison Plot
