@@ -90,12 +90,12 @@ In this project, I discussed the **Multiple-Armed Bandit (MAB)** problem and exp
 The project is organized as follows:
 
 1. Each algorithm is implemented separately:
-    - **Epsilon-Greedy Algorithm** code is in `epsilon_greedy.py`.
-    - **Upper Confidence Bound (UCB)** code is in `ucb.py`.
-    - **Softmax Algorithm** code is in `softmax.py`.
-    - **Thompson Sampling Algorithm** code is in `thompson_sampling.py`.
+    - **Epsilon-Greedy Algorithm** code is in `MAB-Epsilon-Greedy.py`.
+    - **Upper Confidence Bound (UCB)** code is in `MAB-UCB.py`.
+    - **Softmax Algorithm** code is in `MAB-Softmax.py`.
+    - **Thompson Sampling Algorithm** code is in `MAB-Thompson Sampling.py`.
 
-2. Once each of the algorithms has been tested individually, the final code to compare all four methods is placed in a unified file `bandit_comparison.py`. This script runs the simulations for all four algorithms, tracks the metrics (average reward, best arm selection count, and convergence step), and generates the comparison plots.
+2. Once each of the algorithms has been tested individually, the final code to compare all four methods is placed in a unified file `MAB-Comparison.py`. This script runs the simulations for all four algorithms, tracks the metrics (average reward, best arm selection count, and convergence step), and generates the comparison plots.
 
 ---
 
@@ -129,6 +129,9 @@ The comparison plot shows the **performance over time** of each algorithm. Here'
 
 ## 💻 How to Run
 
-```bash
 pip install matplotlib numpy
-python bandit_simulation.py
+python MAB-Thompson Sampling.py
+python MAB-UCB.py
+python MAB-Epsilon-Greedy.py
+python MAB-Thompson Sampling.py
+python MAB-Comparison.py
