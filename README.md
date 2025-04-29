@@ -9,6 +9,19 @@ This project analyzes and compares four popular strategies for the **Multi-Armed
 
 ---
 
+## 🔄 Discussion Prompt
+
+I am currently working on a deep reinforcement learning assignment related to Multiple Arm Bandit performance analysis, using the **Epsilon-Greedy**, **UCB**, **Softmax**, and **Thompson Sampling** method. The additional requirements are as follows:
+
+1. Algorithm formula: Present each algorithm’s mathematical formula in LaTeX format.
+
+2. Code and charts: Provide Python code for the algorithm and use charts to illustrate the results (e.g., cumulative rewards, convergence speed, etc.).
+
+3. Result interpretation: Analyze the results in terms of space and time complexity.
+(br)
+After code for each method generated, I am going to do comparison. The goal was to compare these strategies based on their performance, especially in terms of **average reward**, **best arm selection count**, and **convergence speed**. I implemented the algorithms in Python and ran simulations to evaluate how each algorithm performs under the same conditions.
+
+---
 ## 📘 Algorithm Overview
 
 ### Epsilon-Greedy
@@ -79,20 +92,6 @@ After receiving reward $r$:
 
 ---
 
-## 🔄 Discussion Prompt
-
-I am currently working on a deep reinforcement learning assignment related to Multiple Arm Bandit performance analysis, using the **Epsilon-Greedy**, **UCB**, **Softmax**, and **Thompson Sampling** method. The additional requirements are as follows:
-
-1. Algorithm formula: Present each algorithm’s mathematical formula in LaTeX format.
-
-2. Code and charts: Provide Python code for the algorithm and use charts to illustrate the results (e.g., cumulative rewards, convergence speed, etc.).
-
-3. Result interpretation: Analyze the results in terms of space and time complexity.
-
-After code for each method generated, I am going to do comparison. The goal was to compare these strategies based on their performance, especially in terms of **average reward**, **best arm selection count**, and **convergence speed**. I implemented the algorithms in Python and ran simulations to evaluate how each algorithm performs under the same conditions.
-
----
-
 ## 🧑‍💻 Code Organization
 
 The project is organized as follows:
@@ -143,9 +142,9 @@ The comparison plot shows the **performance over time** of each algorithm. Here'
 
 ## 💻 How to Run
 
-pip install matplotlib numpy
-python MAB-Thompson Sampling.py
-python MAB-UCB.py
-python MAB-Epsilon-Greedy.py
-python MAB-Thompson Sampling.py
+pip install matplotlib numpy(br)
+python MAB-Thompson Sampling.py(br)
+python MAB-UCB.py(br)
+python MAB-Epsilon-Greedy.py(br)
+python MAB-Thompson Sampling.py(br)
 python MAB-Comparison.py
