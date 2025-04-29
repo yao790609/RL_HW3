@@ -105,14 +105,18 @@ The project is organized as follows:
 
 A reward vs. step plot is generated to show how each algorithm improves over time.
 
-### 2. Best Arm Selection
+![image](https://github.com/yao790609/RL_HW3/blob/main/MAB-Epsilon-Greedy.png)
+Epsilon-Greedy
 
-Counts how many times each method selected the true best arm.
+![image](https://github.com/yao790609/RL_HW3/blob/main/MAB-Softmax.png)
+Softmax
 
-### 3. Convergence Step
+![image](https://github.com/yao790609/RL_HW3/blob/main/MAB-UCB.png)
+UCB
 
-Measures how fast each algorithm converges to a near-optimal average reward.
+![image](https://github.com/yao790609/RL_HW3/blob/main/MAB-Thompson%20Sampling.png)
 
+Thompson Sampling
 ---
 
 ## 📊 Significance of Comparison Plot
@@ -124,6 +128,8 @@ The comparison plot shows the **performance over time** of each algorithm. Here'
 - **Convergence Speed**: The rate at which the algorithms approach their optimal reward is visible in the graph. Algorithms that reach a high reward faster are considered more efficient.
   
 - **Best Arm Selection**: By comparing the number of times each algorithm selects the optimal arm (as seen in the plot), we can determine which method is more likely to identify and exploit the best arm over time.
+
+![image](https://github.com/yao790609/RL_HW3/blob/main/methods_comparison.png)
 
 ---
 
