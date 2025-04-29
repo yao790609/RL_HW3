@@ -81,7 +81,15 @@ After receiving reward $r$:
 
 ## 🔄 Discussion Prompt
 
-In this project, I discussed the **Multiple-Armed Bandit (MAB)** problem and explored different strategies used to solve it, including **Epsilon-Greedy**, **UCB**, **Softmax**, and **Thompson Sampling**. The goal was to compare these strategies based on their performance, especially in terms of **average reward**, **best arm selection count**, and **convergence speed**. I implemented the algorithms in Python and ran simulations to evaluate how each algorithm performs under the same conditions.
+I am currently working on a deep reinforcement learning assignment related to Multiple Arm Bandit performance analysis, using the **Epsilon-Greedy**, **UCB**, **Softmax**, and **Thompson Sampling** method. The additional requirements are as follows:
+
+1. Algorithm formula: Present each algorithm’s mathematical formula in LaTeX format.
+
+2. Code and charts: Provide Python code for the algorithm and use charts to illustrate the results (e.g., cumulative rewards, convergence speed, etc.).
+
+3. Result interpretation: Analyze the results in terms of space and time complexity.
+
+After code for each method generated, I am going to do comparison. The goal was to compare these strategies based on their performance, especially in terms of **average reward**, **best arm selection count**, and **convergence speed**. I implemented the algorithms in Python and ran simulations to evaluate how each algorithm performs under the same conditions.
 
 ---
 
