@@ -68,14 +68,34 @@ After receiving reward $r$:
 
 ## 🧪 Simulation Details
 
-- Arms: 10
-- Steps: 1000
-- Runs: 2000
-- Rewards: Binary (Bernoulli)
-- Metrics tracked:
+- **Arms**: 10
+- **Steps**: 1000
+- **Runs**: 2000
+- **Rewards**: Binary (Bernoulli)
+- **Metrics tracked**:
   - Average reward per step
   - Number of times the best arm was selected
   - Convergence step (when average reward exceeds threshold for a window)
+
+---
+
+## 🔄 Discussion Prompt
+
+In this project, I discussed the **Multiple-Armed Bandit (MAB)** problem and explored different strategies used to solve it, including **Epsilon-Greedy**, **UCB**, **Softmax**, and **Thompson Sampling**. The goal was to compare these strategies based on their performance, especially in terms of **average reward**, **best arm selection count**, and **convergence speed**. I implemented the algorithms in Python and ran simulations to evaluate how each algorithm performs under the same conditions.
+
+---
+
+## 🧑‍💻 Code Organization
+
+The project is organized as follows:
+
+1. Each algorithm is implemented separately:
+    - **Epsilon-Greedy Algorithm** code is in `epsilon_greedy.py`.
+    - **Upper Confidence Bound (UCB)** code is in `ucb.py`.
+    - **Softmax Algorithm** code is in `softmax.py`.
+    - **Thompson Sampling Algorithm** code is in `thompson_sampling.py`.
+
+2. Once each of the algorithms has been tested individually, the final code to compare all four methods is placed in a unified file `bandit_comparison.py`. This script runs the simulations for all four algorithms, tracks the metrics (average reward, best arm selection count, and convergence step), and generates the comparison plots.
 
 ---
 
@@ -95,9 +115,20 @@ Measures how fast each algorithm converges to a near-optimal average reward.
 
 ---
 
+## 📊 Significance of Comparison Plot
+
+The comparison plot shows the **performance over time** of each algorithm. Here's how you can interpret the chart:
+
+- **Average Reward**: The plot shows the cumulative reward each algorithm gathers over time. A higher average reward indicates a better-performing strategy.
+  
+- **Convergence Speed**: The rate at which the algorithms approach their optimal reward is visible in the graph. Algorithms that reach a high reward faster are considered more efficient.
+  
+- **Best Arm Selection**: By comparing the number of times each algorithm selects the optimal arm (as seen in the plot), we can determine which method is more likely to identify and exploit the best arm over time.
+
+---
+
 ## 💻 How to Run
 
 ```bash
 pip install matplotlib numpy
 python bandit_simulation.py
-# RL_HW3
